@@ -50,12 +50,6 @@ get_header();
 
     </div>
 
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
-
-            <p> Startseite</p>
-        </main>
-    </div>
 
 <?php get_footer(); ?>
 
