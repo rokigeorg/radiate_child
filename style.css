@@ -1,0 +1,40 @@
+/*
+Theme Name: radiate Child Theme
+Theme URI: ../radiate/	
+Description: radiate Child Theme
+Author: Georg Rokita
+Author URI: http://
+Template: radiate
+Version: 1.0
+*/
+
+@import url("../radiate/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.inner-wrap{
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+#primary {
+  width: 100%;
+  float: left;
+}
+
+.whitebackground{
+}
+
+.contentBoxFontPage{
+    background-color: white;
+    max-width: 940px;
+    margin: 0 auto 3%;
+}
+
+.contentBoxHalfFontPage{
+    background-color: white;
+    width: 50%;
+    float: left;
+    margin: 0 auto 3%;
+}
