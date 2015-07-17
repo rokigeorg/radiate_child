@@ -41,11 +41,17 @@ get_header();
             <h3><a href="http://localhost/wordpress/?page_id=51">Events</a></h3>
         </div>
 
-
-
+<?php
+        $args =array(
+            'post_type' => 'page',
+            'pagename' => 'news',
+        );
+        $pages = query_posts($args);
+        //var_dump($pages);
+?>
 
         <div class="contentBoxHalfFontPage" >
-            <h3><a href="http://localhost/wordpress/event-single.php">News</a></h3>
+            <h3><a href="<?php echo $pages[0]->guid ?>">News</a></h3>
         </div>
 
     </div>
