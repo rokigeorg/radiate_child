@@ -7,8 +7,6 @@
  * @since Radiate 1.0
  */
 
-
-if(!is_single(1)){
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -60,10 +58,3 @@ if(!is_single(1)){
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
 
-
-<?php }
-else{
-    echo"Shit";
-    echo wp_list_pages( );
-    ;
-}

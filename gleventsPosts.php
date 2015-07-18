@@ -26,8 +26,6 @@
 		// creates a blog post articel on the frontpage of the Wordpressblog
 	function the_event(){
 
-
-        echo the_ID();
 		// DB Object
 		global $wpdb;
 		// get all events from DB
