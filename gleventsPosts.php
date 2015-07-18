@@ -1,8 +1,4 @@
 <?php
-
-
-
-
     function have_events_in_DB(){
 
     	// DB Object

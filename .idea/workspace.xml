@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b049f1-5c87-489b-a145-d14ccb3d2e5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content-single.php" afterPath="$PROJECT_DIR$/content-single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gleventsPosts.php" afterPath="$PROJECT_DIR$/gleventsPosts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/radiate_child.iml" afterPath="$PROJECT_DIR$/.idea/radiate_child.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="radiate_child.iws" />
@@ -29,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="content-single.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="content-single.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content-single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="61" selection-start="213" selection-end="213" vertical-scroll-proportion="3.75" vertical-offset="150" max-vertical-offset="900">
+            <state line="26" column="10" selection-start="620" selection-end="620" vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file leaf-file-name="content-page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="660">
+            <state line="12" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -59,10 +59,10 @@
       <file leaf-file-name="gleventsPosts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gleventsPosts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1440">
+            <state line="6" column="40" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1380">
               <folding>
-                <marker date="1437128236000" expanded="true" signature="90:112" placeholder="SELECT * FRO..gl_event..." />
-                <marker date="1437128236000" expanded="true" signature="532:554" placeholder="SELECT * FRO..gl_event..." />
+                <marker date="1437245153000" expanded="true" signature="86:108" placeholder="SELECT * FRO..gl_event..." />
+                <marker date="1437245153000" expanded="true" signature="528:550" placeholder="SELECT * FRO..gl_event..." />
               </folding>
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="page-event.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="347" selection-end="442" vertical-scroll-proportion="-5.3333335" vertical-offset="7" max-vertical-offset="675">
+            <state line="30" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="675">
               <folding>
                 <marker date="1437121858000" expanded="true" signature="286:361" placeholder="..." />
                 <marker date="1437121858000" expanded="true" signature="341:361" placeholder="..." />
@@ -89,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front-page.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="front-page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="27" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.9030837" vertical-offset="0" max-vertical-offset="930">
+            <state line="47" column="27" selection-start="1246" selection-end="1246" vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -134,14 +134,18 @@
         <option value="$PROJECT_DIR$/event-single.php" />
         <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/page-event.php" />
-        <option value="$PROJECT_DIR$/content-single.php" />
-        <option value="$PROJECT_DIR$/gleventsPosts.php" />
         <option value="$PROJECT_DIR$/widget_footer.php" />
         <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/gleventsPosts.php" />
+        <option value="$PROJECT_DIR$/content-single.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../wp-includes" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
@@ -197,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../wp-includes" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Issue.Navigation" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -276,7 +280,11 @@
       <created>1437133999786</created>
       <updated>1437133999786</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="läuft">
+      <created>1437244089924</created>
+      <updated>1437244089924</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -292,6 +300,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -300,7 +309,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -323,7 +331,8 @@
     <MESSAGE value="first push" />
     <MESSAGE value="ordentlicher" />
     <MESSAGE value="routing läuft" />
-    <option name="LAST_COMMIT_MESSAGE" value="routing läuft" />
+    <MESSAGE value="läuft" />
+    <option name="LAST_COMMIT_MESSAGE" value="läuft" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -354,8 +363,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1440">
           <folding>
-            <marker date="1437128236000" expanded="true" signature="90:112" placeholder="SELECT * FRO..gl_event..." />
-            <marker date="1437128236000" expanded="true" signature="532:554" placeholder="SELECT * FRO..gl_event..." />
+            <marker date="1437245153000" expanded="true" signature="86:108" placeholder="SELECT * FRO..gl_event..." />
+            <marker date="1437245153000" expanded="true" signature="528:550" placeholder="SELECT * FRO..gl_event..." />
           </folding>
         </state>
       </provider>
@@ -422,8 +431,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1440">
           <folding>
-            <marker date="1437128236000" expanded="true" signature="90:112" placeholder="SELECT * FRO..gl_event..." />
-            <marker date="1437128236000" expanded="true" signature="532:554" placeholder="SELECT * FRO..gl_event..." />
+            <marker date="1437245153000" expanded="true" signature="86:108" placeholder="SELECT * FRO..gl_event..." />
+            <marker date="1437245153000" expanded="true" signature="528:550" placeholder="SELECT * FRO..gl_event..." />
           </folding>
         </state>
       </provider>
@@ -495,43 +504,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gleventsPosts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1440">
-          <folding>
-            <marker date="1437128236000" expanded="true" signature="90:112" placeholder="SELECT * FRO..gl_event..." />
-            <marker date="1437128236000" expanded="true" signature="532:554" placeholder="SELECT * FRO..gl_event..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="30" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="347" selection-end="442" vertical-scroll-proportion="-5.3333335" vertical-offset="7" max-vertical-offset="675">
-          <folding>
-            <marker date="1437121858000" expanded="true" signature="286:361" placeholder="..." />
-            <marker date="1437121858000" expanded="true" signature="341:361" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content-single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="213" selection-end="213" vertical-scroll-proportion="3.75" vertical-offset="150" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
@@ -545,7 +520,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.9030837" vertical-offset="0" max-vertical-offset="930">
+        <state line="47" column="27" selection-start="1246" selection-end="1246" vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gleventsPosts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="40" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1380">
+          <folding>
+            <marker date="1437245153000" expanded="true" signature="86:108" placeholder="SELECT * FRO..gl_event..." />
+            <marker date="1437245153000" expanded="true" signature="528:550" placeholder="SELECT * FRO..gl_event..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="675">
+          <folding>
+            <marker date="1437121858000" expanded="true" signature="286:361" placeholder="..." />
+            <marker date="1437121858000" expanded="true" signature="341:361" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="10" selection-start="620" selection-end="620" vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
